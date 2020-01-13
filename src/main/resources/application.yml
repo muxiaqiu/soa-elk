@@ -1,0 +1,12 @@
+server:
+  port: 7090
+  servlet:
+    context-path: /estempalte
+spring:
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+      cluster-name: elasticsearch
+      cluster-nodes: 192.168.60.73:9300
+
